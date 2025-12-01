@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "awesome-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1763410122,
+        "narHash": "sha256-dGceJ5cAxDSUPCqXYAZgzEeC9hd7GQMYPex7nCZ8SEg=",
+        "owner": "awesomewm",
+        "repo": "awesome",
+        "rev": "41473c05ed9e85de66ffb805d872f2737c0458b6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awesomewm",
+        "repo": "awesome",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1764517877,
+        "narHash": "sha256-pp3uT4hHijIC8JUK5MEqeAWmParJrgBVzHLNfJDZxg4=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "2d293cbfa5a793b4c50d17c05ef9e385b90edf6c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "awesome-src": "awesome-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
