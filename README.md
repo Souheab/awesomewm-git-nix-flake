@@ -1,6 +1,6 @@
 # AwesomeWM Git Flake
 
-This flake provides the latest git version of [AwesomeWM](https://awesomewm.org/), built directly from the [repository's master branch](https://github.com/awesomeWM/awesome/tree/master).
+This flake provides the latest git version of [AwesomeWM](https://awesomewm.org/), built directly from the [repository's master branch](https://github.com/awesomeWM/awesome/tree/master). If the flake is not up to date with the latest commit on the master, feel free to remind me by starting an issue.
 
 ## Installing on NixOS
 
